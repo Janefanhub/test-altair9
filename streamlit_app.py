@@ -10,5 +10,6 @@ c = (
    .mark_circle()
    .encode(x="a", y="b", size="c", color="c", tooltip=["a", "b", "c"])
 )
+st.title("Interactive Altair Chart in Streamlit")
 
 st.altair_chart(c)
